@@ -35,3 +35,4 @@ class FileLoggerFactory(LoggerFactory):
 class DatabaseLoggerFactory(LoggerFactory):
     def create_logger(self)->Logger:
         return DatabaseLogger()
+
